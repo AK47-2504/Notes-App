@@ -60,7 +60,7 @@ const ViewPaste = () => {
                 <Copy className="group-hover:text-sucess-500" size={20} />
               </button>
               <button
-                className={`flex justify-center px-5 items-center  transition-all duration-300 ease-in-out group`}
+                className={`flex justify-center px-5 items-center bg-red-400 rounded  transition-all duration-300 ease-in-out group`}
                 onClick={handleRedirect}
               >
                 Back
