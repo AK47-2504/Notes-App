@@ -10,7 +10,7 @@ const Navbar = () => {
           to={link.path}
           className={({ isActive }) =>
             isActive
-              ? "text-blue-500 font-semibold text-xl"
+              ? "text-black font-semibold text-xl"
               : "text-white font-medium text-xl"
           }
         >

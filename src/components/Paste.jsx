@@ -65,7 +65,7 @@ const Paste = () => {
                       >
                         <a href={`/?pasteId=${paste?._id}`}>
                           <PencilLine
-                            className="text-white group-hover:text-blue-500"
+                            className="text-black group-hover:text-blue-500"
                             size={20}
                           />
                         </a>
@@ -75,7 +75,7 @@ const Paste = () => {
                         onClick={() => handleDelete(paste?._id)}
                       >
                         <Trash2
-                          className="text-white group-hover:text-pink-500"
+                          className="text-black group-hover:text-pink-500"
                           size={20}
                         />
                       </button>
@@ -83,7 +83,7 @@ const Paste = () => {
                       <button className="p-2 rounded-[0.2rem] bg-white border border-[#c7c7c7]  hover:bg-transparent group hover:border-orange-500">
                         <a href={`/pastes/${paste?._id}`} target="_blank">
                           <Eye
-                            className="text-white group-hover:text-orange-500"
+                            className="text-black group-hover:text-orange-500"
                             size={20}
                           />
                         </a>
@@ -96,7 +96,7 @@ const Paste = () => {
                         }}
                       >
                         <Copy
-                          className="text-white group-hover:text-green-500"
+                          className="text-black group-hover:text-green-500"
                           size={20}
                         />
                       </button>

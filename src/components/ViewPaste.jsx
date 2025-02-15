@@ -28,7 +28,7 @@ const ViewPaste = () => {
           placeholder="Title"
           value={paste.title}
           disabled
-          className="w-full text-white border border-[rgba(128,121,121,0.3)] rounded-md p-2"
+          className="w-full text-black border border-[rgba(128,121,121,0.3)] rounded-md p-2"
         />
         <div
           className={`w-full flex flex-col items-start relative rounded bg-opacity-10 border border-[rgba(128,121,121,0.3)] backdrop-blur-2xl`}
